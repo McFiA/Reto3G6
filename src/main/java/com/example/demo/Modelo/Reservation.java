@@ -28,7 +28,7 @@ public class Reservation {
     private Integer idReservation;
     private Date startDate;
     private Date devolutionDate;
-    private String status="Created"; 
+    private String status="created"; 
     
     @ManyToOne
     @JoinColumn(name = "id")
